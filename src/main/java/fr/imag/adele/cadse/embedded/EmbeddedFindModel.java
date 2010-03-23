@@ -85,12 +85,10 @@ final class EmbeddedFindModel implements IFindModel {
 					if (cadseFile.exists() && cadseFile.isFile()) {
 						try {
 							add(cadseFile.toURI().toURL());
-						} catch (JAXBException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						} catch (IOException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
+						} catch (JAXBException ignored) {
+							ignored.printStackTrace();
+						} catch (IOException ignored) {
+							ignored.printStackTrace();
 						}
 					}
 				} else {
@@ -103,9 +101,8 @@ final class EmbeddedFindModel implements IFindModel {
 						}						
 					} catch (IOException ignored) {
 						ignored.printStackTrace();
-					} catch (JAXBException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+					} catch (JAXBException ignored) {
+						ignored.printStackTrace();
 					}
 					
 				}

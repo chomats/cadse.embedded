@@ -70,37 +70,31 @@ public final class EmbeddedPlatform implements IPlatformIDE {
 
 	@Override
 	public boolean isUIStarted() {
-		// TODO Auto-generated method stub
 		return true;
 	}
 
 	@Override
 	public boolean isResourceStarted() {
-		// TODO Auto-generated method stub
 		return true;
 	}
 
 	@Override
 	public boolean inDevelopmentMode() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
 	public File getLocation() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public File getLocation(boolean wait) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public List<Bundle> findBundlePrefix(String prefix) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -121,26 +115,19 @@ public final class EmbeddedPlatform implements IPlatformIDE {
 	}
 
 	@Override
-	public void beginRule(Object rule) {
-		// TODO Auto-generated method stub
-		
+	public void beginRule(Object rule) {		
 	}
 
 	@Override
-	public void addListener(IPlatformListener l) {
-		// TODO Auto-generated method stub
-		
+	public void addListener(IPlatformListener l) {		
 	}
 
 	@Override
 	public void activateIDE() {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public String getRessourceName(ContentItem contentItem) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 }

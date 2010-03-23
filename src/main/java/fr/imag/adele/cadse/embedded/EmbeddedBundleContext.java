@@ -49,7 +49,6 @@ public class EmbeddedBundleContext implements BundleContext {
 	@Override
 	public ServiceReference[] getAllServiceReferences(String clazz,
 			String filter) throws InvalidSyntaxException {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -60,13 +59,11 @@ public class EmbeddedBundleContext implements BundleContext {
 
 	@Override
 	public Bundle getBundle(long id) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Bundle[] getBundles() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -86,71 +83,57 @@ public class EmbeddedBundleContext implements BundleContext {
 
 	@Override
 	public Object getService(ServiceReference reference) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ServiceReference getServiceReference(String clazz) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ServiceReference[] getServiceReferences(String clazz, String filter)
 			throws InvalidSyntaxException {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Bundle installBundle(String location) throws BundleException {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Bundle installBundle(String location, InputStream input)
 			throws BundleException {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ServiceRegistration registerService(String[] clazzes,
 			Object service, Dictionary properties) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ServiceRegistration registerService(String clazz, Object service,
 			Dictionary properties) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public void removeBundleListener(BundleListener listener) {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void removeFrameworkListener(FrameworkListener listener) {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void removeServiceListener(ServiceListener listener) {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public boolean ungetService(ServiceReference reference) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 

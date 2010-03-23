@@ -26,7 +26,6 @@ public class EmbeddedBundle implements Bundle {
 	@Override
 	public Enumeration findEntries(String path, String filePattern,
 			boolean recurse) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -42,73 +41,61 @@ public class EmbeddedBundle implements Bundle {
 
 	@Override
 	public URL getEntry(String path) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Enumeration getEntryPaths(String path) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Dictionary getHeaders() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Dictionary getHeaders(String locale) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public long getLastModified() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
 	public String getLocation() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ServiceReference[] getRegisteredServices() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public URL getResource(String name) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Enumeration getResources(String name) throws IOException {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ServiceReference[] getServicesInUse() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Map getSignerCertificates(int signersType) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public int getState() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
@@ -124,7 +111,6 @@ public class EmbeddedBundle implements Bundle {
 
 	@Override
 	public boolean hasPermission(Object permission) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
