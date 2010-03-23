@@ -31,10 +31,10 @@ public class EmbeddedCadse {
 		cadseDomainImpl = new CadseDomainImpl();
 		cadseDomainImpl._initModelService = initModel;
 		mainPlatform = new EmbeddedPlatform();
+		cadseDomainImpl._platformService = mainPlatform;
 		embeddedBundleContext = new EmbeddedBundleContext();
 		mainPlatform._bundleContext = embeddedBundleContext;
-		modelVersionDBImpl2 = new ModelVersionDBImpl2(
-				mainPlatform._bundleContext);
+		modelVersionDBImpl2 = new ModelVersionDBImpl2(embeddedBundleContext);
 		cadseDomainImpl._modelDB2Service = modelVersionDBImpl2;
 		initModel.workspaceCU = cadseDomainImpl;
 		initModel.platformService = mainPlatform;
@@ -45,7 +45,8 @@ public class EmbeddedCadse {
 	public void start() throws ErrorWhenLoadedModel {
 		cadseDomainImpl.start();
 		modelVersionDBImpl2.start();
-
+		embeddedFindModel.start();
+		
 		// load all cadse
 		CadseRuntime[] cadsePresents = initModel.loadCadses();
 
