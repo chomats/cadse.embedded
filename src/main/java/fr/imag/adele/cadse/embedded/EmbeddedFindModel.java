@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -77,6 +78,7 @@ final class EmbeddedFindModel implements IFindModel {
 	
 	public void start() {
 		String[] strClassPath = System.getProperty("java.class.path").split(":");
+		System.out.println("Class path : "+Arrays.asList(strClassPath));
 		for (String path : strClassPath) {
 			File f = new File(path);
 			if (f.exists()) {
