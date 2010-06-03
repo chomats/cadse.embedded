@@ -18,7 +18,19 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.imag.adele.cadse</groupId>
+			<artifactId>as.findmodel</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.imag.adele.cadse</groupId>
+			<artifactId>as.persistence</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.imag.adele.cadse</groupId>
 			<artifactId>si.initmodel</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.imag.adele.cadse</groupId>
+			<artifactId>as.initmodel</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.imag.adele.cadse</groupId>
