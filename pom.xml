@@ -42,7 +42,7 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.imag.adele.cadse</groupId>
-			<artifactId>si.ModelVersionDB</artifactId>
+			<artifactId>si.modelversiondb</artifactId>
 		</dependency>
 	</dependencies>
 </project>
